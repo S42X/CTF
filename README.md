@@ -1,4 +1,4 @@
 CTF
 ===
 
-Code and Writeups
+Code and Writeups, have a look at wiki for that
