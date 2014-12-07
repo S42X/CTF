@@ -1,7 +1,7 @@
 
-Another quick and easy chall.
+Another quick and easy chall :)
 
-That was the question: **nc number.quals.seccon.jp 31337**
+The question we wera given was: **nc number.quals.seccon.jp 31337**
 
 After trying some with [nc](http://nc110.sourceforge.net/) we figured out that we have to solved it by writing a prog that would be able to choose among some randoms numbers the min or max.
 
