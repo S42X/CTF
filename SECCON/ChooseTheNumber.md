@@ -1,10 +1,18 @@
 
 Another quick and easy chall.
+
+That was the question: **nc number.quals.seccon.jp 31337**
+
+After trying some with [nc](http://nc110.sourceforge.net/) we figured out that we have to solved it by writing a prog that would be able to choose among some randoms numbers the min or max.
+
+![alt text](http://saxx.swordarmor.fr/CTF/prog100_nc.png "Netcat")
+
+Here is the python exploit:
+
 ```python
-#!/usr/bin/python                                                                                                                                                                            
+#!/usr/bin/python
 
 import socket
-import time
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(("number.quals.seccon.jp",31337))
@@ -24,4 +32,10 @@ while True:
     s.send(str(r)+'\n')
 ```
 
+After some hits, we got the flag:
+
+![alt text](http://saxx.swordarmor.fr/CTF/prog100_flag.png "Flag")
+
 Greetz to [fr0g](https://twitter.com/fr0gSecurity)
+
+Have fun :)
