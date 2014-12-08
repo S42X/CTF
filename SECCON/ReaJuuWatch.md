@@ -11,6 +11,7 @@ The page they retrieve is similar to [this one](http://reajuu.pwn.seccon.jp/user
 Bummer, it contains a username, and a password. Which happens to be my credentials.
 
 Page for [user 1](http://reajuu.pwn.seccon.jp/users/chk/1) gives you the following response :
+
 `{"username":"rea-juu","password":"way_t0_f1ag","point":99999}`
 
 Now that you have the admin's password, all you have to do to get the flag is to login with their credentials, and beat the game again.
